@@ -13,12 +13,12 @@ function Education() {
         Education
       </motion.h2>
 
-      <div className="mb-8 flex flex-wrap justify-center lg:gap-48 gap-20">
+      <div className="mb-8 flex flex-wrap justify-center gap-10 lg:gap-16 xl:gap-24">
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className=" max-w-xl"
+          className="w-full sm:w-[300px] md:w-[300px] lg:w-[300px] xl:w-[350px]"
         >
           <motion.h5
             whileInView={{ opacity: 1, y: 0 }}
@@ -26,7 +26,8 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
-            Dr. A.P.J. Abdul Kalam Technical University
+            Dr. D. Y. Patil Pratishthan's College of Engineering Salokhenagar,
+            Kolhapur
           </motion.h5>
           <motion.h6
             whileInView={{ opacity: 1, y: 0 }}
@@ -34,7 +35,7 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
-            B.Tech in Computer Science & Engineering
+            B.Tech in Computer Science & Engineering(Data Science)
           </motion.h6>
           <motion.p
             whileInView={{ opacity: 1, y: 0 }}
@@ -42,15 +43,17 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
-            Inderprastha Engineering College, Ghaziabad <br />
-            2025
+            Shivaji University,Kolhapur
+            <br />
+            2026
           </motion.p>
         </motion.div>
+
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className=" max-w-xl"
+          className="w-full sm:w-[300px] md:w-[300px] lg:w-[300px] xl:w-[350px]"
         >
           <motion.h5
             whileInView={{ opacity: 1, y: 0 }}
@@ -58,7 +61,7 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
-            Central Board of Secondary Education
+            Main Rajaram Jr. College, Kolhapur
           </motion.h5>
           <motion.h6
             whileInView={{ opacity: 1, y: 0 }}
@@ -66,7 +69,7 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-2 font-semibold"
           >
-            10+2 PCMB
+            Class XII
           </motion.h6>
           <motion.p
             whileInView={{ opacity: 1, y: 0 }}
@@ -74,7 +77,40 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mb-4 text-neutral-400"
           >
-            Rajkiya Pratibha Vikas Vidyalaya, Yamuna Vihar, Delhi <br />
+            Maharashtra State Board <br />
+            2022
+          </motion.p>
+        </motion.div>
+
+        <motion.div
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="w-full sm:w-[300px] md:w-[300px] lg:w-[300px] xl:w-[350px]"
+        >
+          <motion.h5
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="font-bold text-xl text-slate-500"
+          >
+            Gargoti HighSchool , Gargoti
+          </motion.h5>
+          <motion.h6
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="mb-2 font-semibold"
+          >
+            Class X
+          </motion.h6>
+          <motion.p
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="mb-4 text-neutral-400"
+          >
+            Maharashtra State Board <br />
             2020
           </motion.p>
         </motion.div>

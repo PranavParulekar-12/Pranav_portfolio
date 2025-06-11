@@ -24,8 +24,8 @@ function About() {
           <div className="flex items-center justify-center">
             <img
               src={profilePic}
-              alt=""
-              className=" lg:h-96 lg:min-w-96 h-80 min-w-80 rounded-3xl"
+              alt="photo"
+              className=" lg:h-96  min-w-80 rounded-3xl"
             />
           </div>
         </motion.div>
@@ -53,9 +53,8 @@ function About() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className=" py-6 max-w-xl"
             >
-              As an aspiring Software Engineer,
-             I am eager to deepen my understanding of computer
-              systems.
+              As an aspiring Software Engineer, I am eager to deepen my
+              understanding of computer systems.
             </motion.p>
 
             <motion.p

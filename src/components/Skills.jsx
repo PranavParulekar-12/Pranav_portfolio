@@ -145,6 +145,9 @@ function Skills() {
             >
               <img src="https://skillicons.dev/icons?i=postgres" alt="icons" />
             </a>
+            <a href="https://supabase.com/" target="_blank" rel="noreferrer">
+              <img src="https://skillicons.dev/icons?i=supabase" alt="icons" />
+            </a>
           </div>
         </motion.div>
         <motion.div
@@ -194,6 +197,13 @@ function Skills() {
             </a>
             <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=linux" alt="icons" />
+            </a>
+            <a
+              href="hhttps://developer.apple.com/macos/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="https://skillicons.dev/icons?i=apple" alt="icons" />
             </a>
             <a
               href="https://www.microsoft.com/en-in/windows?r=1"

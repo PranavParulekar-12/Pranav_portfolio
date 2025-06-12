@@ -28,6 +28,7 @@ import ProjectItem from "./ProjectItem";
 import TechItem from "./TechItem";
 import SwasthaPath from "../assets/SwasthaPath.png";
 import WorkoutApp from "../assets/Workout.jpg";
+import HandGesture from "../assets/HandGesture.png";
 
 function Projects() {
   return (
@@ -36,6 +37,7 @@ function Projects() {
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
         className="my-20 text-center text-4xl 
  cursor-default hover:text-white transition-all duration-300 font-semibold"
       >
@@ -119,7 +121,7 @@ function Projects() {
         description={
           "A Python project that uses OpenCV and MediaPipe to control the mouse cursor using hand gestures, allowing users to perform actions like clicking and scrolling."
         }
-        img={""}
+        img={HandGesture}
       >
         <TechItem>
           <>

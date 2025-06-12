@@ -9,6 +9,7 @@ function About() {
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
         className="my-20 text-center text-4xl 
  cursor-default hover:text-white transition-all duration-300 font-semibold"
       >
@@ -19,6 +20,7 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
@@ -33,6 +35,7 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
           className="w-full lg:w-1/2 "
         >
           <div className="my-8 lg:my-0 lg:justify-start justify-center lg:text-left text-center">
@@ -40,6 +43,7 @@ function About() {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
               className="py-6 max-w-xl"
             >
               I am a Computer Science undergraduate with a strong interest in
@@ -51,6 +55,7 @@ function About() {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
               className=" py-6 max-w-xl"
             >
               As an aspiring Software Engineer, I am eager to deepen my
@@ -61,6 +66,7 @@ function About() {
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
               className=" py-6 max-w-xl"
             >
               My goal is not only to excel in coding and software development

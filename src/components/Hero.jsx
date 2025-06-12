@@ -37,15 +37,16 @@ function Hero({ handleContactPress }) {
   }, []);
 
   return (
-    <section className="border-b border-neutral-800 pb-16 pt-10">
-      <div className="flex flex-col lg:flex-row  items-center justify-between gap-12">
-        {/* Text Content */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left px-4 sm:px-8">
+    <section className="border-b border-neutral-800 pb-16 pt-10 px-6 sm:px-10 md:px-20 lg:px-32">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+        {/* Text Section */}
+        <div className="w-full lg:w-1/2 text-center lg:text-left">
           <motion.h1
             variants={container(0.3)}
+            viewport={{ once: true }}
             initial="hidden"
             animate="visible"
-            className="text-6xl sm:text-6xl lg:text-6xl font-light tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-slate-400 cursor-default"
+            className="text-4xl sm:text-5xl md:text-6xl font-light tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-slate-400 cursor-default"
           >
             Hello, I am <br />
             Pranav Parulekar
@@ -53,18 +54,20 @@ function Hero({ handleContactPress }) {
 
           <motion.p
             variants={container(0.6)}
+            viewport={{ once: true }}
             initial="hidden"
             animate="visible"
-            className="mt-4 text-xl sm:text-2xl bg-gradient-to-r from-purple-300 via-slate-400 to-blue-500 bg-clip-text text-transparent tracking-tight"
+            className="mt-4 text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-purple-300 via-slate-400 to-blue-500 bg-clip-text text-transparent tracking-tight"
           >
             <span ref={el} />
           </motion.p>
 
           <motion.p
             variants={container(0.8)}
+            viewport={{ once: true }}
             initial="hidden"
             animate="visible"
-            className="mt-6 text-base sm:text-lg text-neutral-400 leading-relaxed"
+            className="mt-6 text-sm sm:text-base md:text-lg text-neutral-400 leading-relaxed"
           >
             I am a <strong className="text-white">Tech Enthusiast</strong> and a{" "}
             <strong className="text-white">
@@ -83,6 +86,7 @@ function Hero({ handleContactPress }) {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: -80 }}
             transition={{ duration: 0.5, delay: 1 }}
+            viewport={{ once: true }}
             className="flex flex-col sm:flex-row gap-4 mt-8 items-center justify-center lg:justify-start"
           >
             <a
@@ -102,15 +106,16 @@ function Hero({ handleContactPress }) {
           </motion.div>
         </div>
 
-        {/* Image */}
-        <div className="w-full lg:w-1/2 flex justify-center items-center px-4">
+        {/* Image Section */}
+        <div className="w-full lg:w-1/2 flex justify-center items-center">
           <motion.img
             initial={{ y: -100, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
+            viewport={{ once: true }}
             src={memojipic}
             alt="Memoji"
-            className="w-64 sm:w-72 lg:w-96 h-auto"
+            className="w-52 sm:w-64 md:w-72 lg:w-96 h-auto"
           />
         </div>
       </div>

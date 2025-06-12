@@ -8,6 +8,7 @@ function Skills() {
         initial={{ y: -50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
         className="font-semibold my-20 text-center text-4xl cursor-default hover:text-white transition-all duration-300"
       >
         Skills
@@ -17,6 +18,7 @@ function Skills() {
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
           className="flex  flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Programming Languages</h1>
@@ -49,15 +51,8 @@ function Skills() {
                 alt="icons"
               />
             </a>
-            <a
-              href="https://www.java.com/en/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="https://skillicons.dev/icons?i=java"
-                alt="icons"
-              />
+            <a href="https://www.java.com/en/" target="_blank" rel="noreferrer">
+              <img src="https://skillicons.dev/icons?i=java" alt="icons" />
             </a>
           </div>
         </motion.div>
@@ -65,6 +60,7 @@ function Skills() {
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5 "
         >
           <h1 className="text-2xl font-light">Web Development</h1>
@@ -98,6 +94,7 @@ function Skills() {
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">App Development</h1>
@@ -111,11 +108,7 @@ function Skills() {
             <a href="https://expo.dev/" target="_blank" rel="noreferrer">
               <img src={ExpoLogo} alt="icons" height="48" width="48" />
             </a>
-            <a
-              href="https://flutter.dev/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://flutter.dev/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=flutter" alt="icons" />
             </a>
             <a
@@ -134,6 +127,7 @@ function Skills() {
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Databases</h1>
@@ -144,7 +138,11 @@ function Skills() {
             <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=mysql" alt="icons" />
             </a>
-             <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.postgresql.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="https://skillicons.dev/icons?i=postgres" alt="icons" />
             </a>
           </div>
@@ -153,6 +151,7 @@ function Skills() {
           initial={{ y: -50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
           className="flex flex-col gap-5 items-center justify-center flex-wrap m-5"
         >
           <h1 className="text-2xl font-light">Tools</h1>
@@ -196,7 +195,11 @@ function Skills() {
             <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
               <img src="https://skillicons.dev/icons?i=linux" alt="icons" />
             </a>
-            <a href="https://www.microsoft.com/en-in/windows?r=1" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.microsoft.com/en-in/windows?r=1"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="https://skillicons.dev/icons?i=windows" alt="icons" />
             </a>
             <a href="https://kali.org/" target="_blank" rel="noreferrer">

@@ -12,29 +12,27 @@ function Navbar() {
       initial={{ opacity: 0, y: -100 }}
       transition={{ duration: 0.5, delay: 0.5 }}
       viewport={{ once: true }}
-      className="flex flex-col lg:flex-row items-center justify-between py-6 px-4 lg:px-32"
+      className="w-full flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-10 lg:px-32 py-4 gap-4"
     >
       {/* Logo */}
-      <div className="mb-4 lg:mb-0">
-        <a href="/">
-          <img src={Logo} className="w-12 h-12" alt="logo" />
-        </a>
-      </div>
+      <a href="/" className="flex-shrink-0">
+        <img src={Logo} className="w-10 h-10" alt="logo" />
+      </a>
 
       {/* Social Icons */}
-      <div className="flex flex-wrap justify-center items-center gap-4">
+      <div className="flex flex-wrap justify-center items-center gap-4 ml-auto">
         <a
           href="https://www.linkedin.com/in/pranav-parulekar-75b386242"
           target="_blank"
         >
           <FaLinkedinIn
-            size={24}
+            size={22}
             className="hover:text-white transition-all duration-300"
           />
         </a>
         <a href="https://github.com/PranavParulekar-12" target="_blank">
           <FaGithub
-            size={24}
+            size={22}
             className="hover:text-white transition-all duration-300"
           />
         </a>
@@ -43,19 +41,19 @@ function Navbar() {
           target="_blank"
         >
           <FaInstagram
-            size={24}
+            size={22}
             className="hover:text-white transition-all duration-300"
           />
         </a>
         <a href="https://x.com/PranavParuleka3" target="_blank">
           <FaXTwitter
-            size={24}
+            size={22}
             className="hover:text-white transition-all duration-300"
           />
         </a>
         <a href="https://leetcode.com/u/PranavParulekar12/" target="_blank">
           <SiLeetcode
-            size={24}
+            size={22}
             className="hover:text-white transition-all duration-300"
           />
         </a>

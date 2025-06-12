@@ -71,8 +71,8 @@ function About() {
             >
               My goal is not only to excel in coding and software development
               but also to innovate and contribute to the ever-evolving field of
-              cybersecurity, playing a crucial role in securing the digital
-              landscape.
+              AI and ML, playing a crucial role in shaping the future of
+              intelligent technologies.
             </motion.p>
           </div>
         </motion.div>

@@ -61,7 +61,7 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
-            Main Rajaram Jr. College, Kolhapur
+            Main Rajaram Highschool & Jr. College, Kolhapur
           </motion.h5>
           <motion.h6
             whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ function Education() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="font-bold text-xl text-slate-500"
           >
-            Gargoti HighSchool , Gargoti
+            Gargoti Highschool & Samarth Jr. College , Gargoti
           </motion.h5>
           <motion.h6
             whileInView={{ opacity: 1, y: 0 }}

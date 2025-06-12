@@ -4,6 +4,7 @@ import laptopImg from "../assets/Laptop.png";
 import { motion } from "framer-motion";
 import { forwardRef } from "react";
 import ScrambleText from "./ScrambleText";
+import { SiLeetcode } from "react-icons/si";
 
 const Contact = forwardRef((props, ref) => {
   return (
@@ -44,7 +45,7 @@ const Contact = forwardRef((props, ref) => {
               className="my-1 text-xl w-64"
             >
               <a
-                href="pranavparulekar12@gmail.com
+                href="mailto:pranavparulekar12@gmail.com
 "
               >
                 <ScrambleText
@@ -71,7 +72,10 @@ const Contact = forwardRef((props, ref) => {
               className="my-1 text-xl"
             >
               <div className="mt-4 flex  items-center justify-center gap-4 ">
-                <a href="https://www.linkedin.com/in/pranav-parulekar-75b386242" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/pranav-parulekar-75b386242"
+                  target="_blank"
+                >
                   <FaLinkedinIn
                     size={30}
                     className=" hover:text-white transition-all duration-300"
@@ -83,7 +87,10 @@ const Contact = forwardRef((props, ref) => {
                     className=" hover:text-white transition-all duration-300"
                   />
                 </a>
-                <a href="http://www.instagram.com" target="_blank">
+                <a
+                  href="https://www.instagram.com/pranav_parulekar_12/"
+                  target="_blank"
+                >
                   <FaInstagram
                     size={30}
                     className=" hover:text-white transition-all duration-300"
@@ -95,8 +102,11 @@ const Contact = forwardRef((props, ref) => {
                     className=" hover:text-white transition-all duration-300"
                   />
                 </a>
-                <a href="https://www.facebook.com" target="_blank">
-                  <FaFacebook
+                <a
+                  href="https://leetcode.com/u/PranavParulekar12/"
+                  target="_blank"
+                >
+                  <SiLeetcode
                     size={30}
                     className=" hover:text-white transition-all duration-300"
                   />

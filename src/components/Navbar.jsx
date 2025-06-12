@@ -1,7 +1,10 @@
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
-import { FaFacebook, FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 import { motion } from "framer-motion";
+import Logo from "../assets/logo.png";
+
 function Navbar() {
   return (
     <motion.nav
@@ -12,11 +15,14 @@ function Navbar() {
     >
       <div className="flex flex-shrink-0 items-center">
         <a href="https://">
-          <img src="/" className="w-12 h-12 lg:ml-10 " alt="logo" />
+          <img src={Logo} className="w-12 h-12 lg:ml-10 " alt="logo" />
         </a>
       </div>
       <div className="m-8 flex  items-center justify-center gap-4 ">
-        <a href="https://www.linkedin.com/in/pranav-parulekar-75b386242" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/pranav-parulekar-75b386242"
+          target="_blank"
+        >
           <FaLinkedinIn
             size={24}
             className=" hover:text-white transition-all duration-300"
@@ -28,7 +34,10 @@ function Navbar() {
             className=" hover:text-white transition-all duration-300"
           />
         </a>
-        <a href="http://www.instagram.com/" target="_blank">
+        <a
+          href="https://www.instagram.com/pranav_parulekar_12/"
+          target="_blank"
+        >
           <FaInstagram
             size={24}
             className=" hover:text-white transition-all duration-300"
@@ -40,8 +49,8 @@ function Navbar() {
             className=" hover:text-white transition-all duration-300"
           />
         </a>
-        <a href="https://www.facebook.com/" target="_blank">
-          <FaFacebook
+        <a href="https://leetcode.com/u/PranavParulekar12/" target="_blank">
+          <SiLeetcode
             size={24}
             className=" hover:text-white transition-all duration-300"
           />

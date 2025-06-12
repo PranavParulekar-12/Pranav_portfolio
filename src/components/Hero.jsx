@@ -41,16 +41,19 @@ function Hero({ handleContactPress }) {
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Text Section */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <motion.h1
+          <motion.div
             variants={container(0.3)}
             viewport={{ once: true }}
             initial="hidden"
             animate="visible"
-            className="text-4xl sm:text-5xl md:text-6xl font-light tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-slate-400 cursor-default"
           >
-            Hello, I am <br />
-            Pranav Parulekar
-          </motion.h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl  tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-slate-400 cursor-default mt-2 pt-20">
+              Hello, I am
+            </h1>
+            <h1 className="text-5xl sm:text-6xl md:text-7xl  tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-slate-400 cursor-default mt-2">
+              Pranav Parulekar
+            </h1>
+          </motion.div>
 
           <motion.p
             variants={container(0.6)}
@@ -67,7 +70,7 @@ function Hero({ handleContactPress }) {
             viewport={{ once: true }}
             initial="hidden"
             animate="visible"
-            className="mt-6 text-sm sm:text-base md:text-lg text-neutral-400 leading-relaxed"
+            className="mt-6 text-xs sm:text-sm md:text-base text-neutral-400 leading-relaxed"
           >
             I am a <strong className="text-white">Tech Enthusiast</strong> and a{" "}
             <strong className="text-white">

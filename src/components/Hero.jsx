@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Typed from "typed.js";
 import { FaGithub } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
+import memoji from "../assets/memoji.png";
 
 const container = (delay) => ({
   hidden: { y: -50, opacity: 0 },
@@ -116,7 +117,7 @@ function Hero({ handleContactPress }) {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: true }}
-            src={memojipic}
+            src={memoji}
             alt="Memoji"
             className="w-52 sm:w-64 md:w-72 lg:w-96 h-auto"
           />

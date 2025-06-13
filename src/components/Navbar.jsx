@@ -15,7 +15,10 @@ function Navbar() {
       className="w-full flex flex-wrap items-center justify-between px-4 sm:px-6 md:px-10 lg:px-32 py-4 gap-4"
     >
       {/* Logo */}
-      <a href="/" className="flex-shrink-0">
+      <a
+        href="https://pranav-portfolio-bqzp.onrender.com/"
+        className="flex-shrink-0"
+      >
         <img src={Logo} className="w-10 h-10" alt="logo" />
       </a>
 

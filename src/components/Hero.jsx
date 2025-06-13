@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Typed from "typed.js";
 import { FaGithub } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
-import memoji from "../assets/memoji.png";
+import memoji from "../assets/Memoji.png";
 
 const container = (delay) => ({
   hidden: { y: -50, opacity: 0 },

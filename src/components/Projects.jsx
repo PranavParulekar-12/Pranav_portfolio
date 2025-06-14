@@ -22,6 +22,8 @@ import {
   SiSupabase,
   SiTwilio,
   SiIos,
+  SiFramer,
+  SiHostinger,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 import ProjectItem from "./ProjectItem";
@@ -29,6 +31,7 @@ import TechItem from "./TechItem";
 import SwasthaPath from "../assets/SwasthaPath.png";
 import WorkoutApp from "../assets/Workout.jpg";
 import HandGesture from "../assets/HandGesture.png";
+import chakravyuhImg from "../assets/Chakravyuh.png";
 
 function Projects() {
   return (
@@ -43,6 +46,30 @@ function Projects() {
       >
         Projects
       </motion.h2>
+      <ProjectItem
+        link="https://thechakravyuhanalytica.com/"
+        title="Chakravyuh Analytica Company Website"
+        description="A professional and responsive website developed for Chakravyuh Analytica to showcase their services, team, and clients. Built as a freelance project with a team."
+        img={chakravyuhImg}
+      >
+        <TechItem>
+          <>
+            <SiReact /> React
+          </>
+          <>
+            <SiTailwindcss /> Tailwind CSS
+          </>
+          <>
+            <SiFramer /> Framer
+          </>
+          <>
+            <SiJavascript /> JavaScript
+          </>
+          <>
+            <SiHostinger /> Hostinger
+          </>
+        </TechItem>
+      </ProjectItem>
       <ProjectItem
         link={"https://github.com/PranavParulekar-12/SwasthPath"}
         title={"SwasthaPath"}

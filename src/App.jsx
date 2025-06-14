@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 
 function App() {
   const contactRef = useRef(null);
@@ -35,6 +36,7 @@ function App() {
         <About />
         <Skills />
         <Education />
+        <Experience />
         <Projects />
         <Contact ref={contactRef} />
         <Footer />
